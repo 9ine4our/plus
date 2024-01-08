@@ -177,29 +177,29 @@ body {
       border-radius: 10px
     }
 
-    .ep a:hover {
+    .eps a:hover {
       opacity: .6;
       border: 3px solid #92a1aa
     }
 
-    .ep strong {
+    .eps strong {
       display: block;
       margin-bottom: 10px
     }
 
-    .ep li {
+    .eps li {
       list-style-type: disc;
       text-align: left;
       margin: 5px 10px
     }
 
-    .ep li a {
+    .eps li a {
       color: #303f9f;
       border: 0;
       padding: 5px
     }
 
-    .ep li a:hover {
+    .eps li a:hover {
       padding: 5px;
       border: 0
     }
