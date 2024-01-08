@@ -1,0 +1,51 @@
+  :root {
+  --gutter: 20px;
+}
+.app {
+  padding: var(--gutter) 0;
+  display: grid;
+  grid-gap: var(--gutter) 0;
+  grid-template-columns: var(--gutter) 1fr var(--gutter);
+  align-content: start;
+}
+.app > * {
+  grid-column: 2 / -2;
+}
+.app > .full {
+  grid-column: 1 / -1;
+}
+.app {
+  position: relative;
+  /*width: 375px;
+  height: 667px;*/
+  background: #DBD0BC;
+  overflow-y: scroll;
+}
+.grid-container {
+display: grid;
+grid-auto-flow: column;
+gap: 10px;
+overflow-x: auto; 
+width: 100%;
+white-space: nowrap;
+}
+
+.grid-item {
+  position: relative;
+ /* width: 200px; 
+  height: 200px; */
+  background-color: #ccc;
+  border-radius: 10px;
+  align-content: start;
+}
+
+.more-button {
+  width: 200px; /* Sesuaikan lebar dengan item grid */
+  height: 50px; /* Sesuaikan tinggi sesuai kebutuhan */
+  background-color: #f00; /* Warna latar belakang untuk tombol "More" */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Warna teks */
+  cursor: pointer;
+}
