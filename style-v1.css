@@ -213,6 +213,7 @@ body {
 
     .page span {
       color: #999;
+      word-wrap: break-word;
       padding: 5px 10px;
       display: inline-block;
       background: #eee
