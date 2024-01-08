@@ -129,6 +129,7 @@ body {
       background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .65) 51%, rgba(0, 0, 0, .65) 100%);
       background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .65) 51%, rgba(0, 0, 0, .65) 100%);
       position: absolute;
+      word-wrap: break-word;
       left: 0;
       bottom: 0;
       color: #fdd835;
