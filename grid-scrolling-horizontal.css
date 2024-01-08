@@ -1,6 +1,9 @@
   :root {
   --gutter: 20px;
 }
+.p {
+  word-wrap: break-word;
+}
 .app {
   padding: var(--gutter) 0;
   display: grid;
